@@ -1,0 +1,22 @@
+HTTP bao gồm 2 hoạt động chính: Request và response
+# Request bao gồm: 
+- URL
+- Method
+- Headers
+- Body
+    # Method:là hành động client muốn tác động lên “resources”, và nó thường là động từ. Có 4 loại Method hay được dùng:
+    – GET: Yêu cầu server đưa lại resource.
+    – POST: Yêu cầu server cho tạo ra 1 resource mới. 
+    – PUT: Yêu cầu server cho sửa / thêm vào resource đã có trên hệ thống. 
+    – DELETE: Yêu cầu server cho xóa 1 resourse.
+
+    # Headers: nơi chứa các thông tin cần thiết của 1 request nhưng end-users không biết có sự tồn tại của nó. 
+    Ví dụ: độ dài của request body, thời gian gửi request, loại thiết bị đang sử dụng, loại định dạng cái response mà client có đọc được…
+
+    # Body: nơi chứa thông tin mà client sẽ điền. 
+    Giả sử bạn đặt 1 cái bánh pizza, thì thông tin ở phần body sẽ là: Loại bánh pizza, kích cỡ, số lượng đặt.
+# Response bao gồm:
+- Status code: thay thế cho URL và Method. Status code là những con số có 3 chữ số và có duy nhất 1 ý nghĩa. 
+  vd: “404 Not Found” hoặc “503 Service Unavailable”
+- Headers
+- Body
