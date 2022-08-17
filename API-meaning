@@ -7,6 +7,6 @@ API hiện nay đều tuân thủ theo tiêu chuẩn REST và HTTP
 API Key thường hoạt động như một mã định danh duy nhất và mã thông báo bí mật để xác thực 
 
 Ứng dụng:
-- Web API
+- Web API: REST, SOAP, XML-RPC, JSON-RPC
 - API trên hệ điều hành
 - API của thư viện phần mềm hay framework
