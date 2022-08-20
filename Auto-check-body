@@ -20,4 +20,31 @@ Response: 201 Created
     "job": "leader",
     "id": "705",
     "createdAt": "2022-08-20T07:26:56.516Z"
+},
+Test pass
+
+#Kiểm tra job có chứa thông tin "leader"
+
+Method: Post
+Body: 
+{
+    "name": "{{Name}}",
+    "job": "leader"
 }
+Pre-request Script:
+pm.environment.set("Name", "Name-"+parseInt(Math.random().toString(9).substring(2,7)));
+
+Test:
+pm.test("Check job", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.job).to.eql("leader");
+});
+
+Response: 201 Created
+{
+    "name": "Name-6761",
+    "job": "leader",
+    "id": "503",
+    "createdAt": "2022-08-20T08:08:07.702Z"
+},
+Test pass
