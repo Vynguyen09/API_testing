@@ -1,0 +1,16 @@
+Method: Post
+Body: 
+{
+    "name": "{{Name}}",
+    "job": "leader"
+}
+Pre-request Script:
+pm.environment.set("Name", "Name-"+parseInt(Math.random().toString(9).substring(2,7)));
+
+Response: 201 OK
+{
+    "name": "Name-305",
+    "job": "leader",
+    "id": "705",
+    "createdAt": "2022-08-20T07:26:56.516Z"
+}
