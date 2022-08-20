@@ -10,4 +10,4 @@ This is a personal project about API definition and testing methods.
 - HTTP
 - Reponse
 - Reqres.in.postman: https://www.getpostman.com/collections/ae8949af6a7b68e90cb8
-    Exp: List_User-from-reqres
+    - Exp: List_User-from-reqres
