@@ -1,0 +1,23 @@
+#Kiểm tra body có chứa thông tin "leader"
+
+Method: Post
+Body: 
+{
+    "name": "{{Name}}",
+    "job": "leader"
+}
+Pre-request Script:
+pm.environment.set("Name", "Name-"+parseInt(Math.random().toString(9).substring(2,7)));
+
+Test:
+pm.test("Body matches string", function () {
+    pm.expect(pm.response.text()).to.include("leader");
+});
+
+Response: 201 Created
+{
+    "name": "Name-305",
+    "job": "leader",
+    "id": "705",
+    "createdAt": "2022-08-20T07:26:56.516Z"
+}
