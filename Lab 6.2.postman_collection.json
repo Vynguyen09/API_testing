@@ -1,0 +1,188 @@
+{
+	"info": {
+		"_postman_id": "208555ee-0878-4516-95af-d1fdd9876acd",
+		"name": "Lab 6.2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22909552"
+	},
+	"item": [
+		{
+			"name": "Register a new API client",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"clientName\": \"dydynguyen\",\r\n   \"clientEmail\": \"dydynguyen@example.com\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://simple-tool-rental-api.glitch.me/api-clients",
+					"protocol": "https",
+					"host": [
+						"simple-tool-rental-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"api-clients"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "1.\tRegister a new API client",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"clientName\": \"dydynguyen\",\r\n   \"clientEmail\": \"dydynguyen@example.com\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://simple-tool-rental-api.glitch.me/api-clients",
+							"protocol": "https",
+							"host": [
+								"simple-tool-rental-api",
+								"glitch",
+								"me"
+							],
+							"path": [
+								"api-clients"
+							]
+						}
+					},
+					"status": "Conflict",
+					"code": 409,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 13 Sep 2022 15:01:48 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"41-rjAEsJfLskSzU5wzBOncJcKHOOY\""
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"API client already registered. Try a different email.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Create a new order",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"toolId\": 1643,\r\n \"customerName\": \"John Doe\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://simple-tool-rental-api.glitch.me/orders",
+					"protocol": "https",
+					"host": [
+						"simple-tool-rental-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "1.\tRegister a new API client",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"clientName\": \"dydynguyen\",\r\n   \"clientEmail\": \"dydynguyen@example.com\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://simple-tool-rental-api.glitch.me/api-clients",
+							"protocol": "https",
+							"host": [
+								"simple-tool-rental-api",
+								"glitch",
+								"me"
+							],
+							"path": [
+								"api-clients"
+							]
+						}
+					},
+					"status": "Conflict",
+					"code": 409,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 13 Sep 2022 15:01:48 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"41-rjAEsJfLskSzU5wzBOncJcKHOOY\""
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"API client already registered. Try a different email.\"\n}"
+				}
+			]
+		}
+	]
+}
