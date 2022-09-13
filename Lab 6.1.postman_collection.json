@@ -1,0 +1,309 @@
+{
+	"info": {
+		"_postman_id": "e3b1cbab-6fff-4e84-a887-8cb7512485e2",
+		"name": "Lab 6.1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22909552"
+	},
+	"item": [
+		{
+			"name": "Welcome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-tool-rental-api.glitch.me",
+					"protocol": "https",
+					"host": [
+						"simple-tool-rental-api",
+						"glitch",
+						"me"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tools",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://simple-tool-rental-api.glitch.me/tools",
+					"protocol": "https",
+					"host": [
+						"simple-tool-rental-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"tools"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Tools",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://simple-tool-rental-api.glitch.me/tools",
+							"protocol": "https",
+							"host": [
+								"simple-tool-rental-api",
+								"glitch",
+								"me"
+							],
+							"path": [
+								"tools"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 13 Sep 2022 14:39:27 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1870"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"74e-C4T5fkNjqxDCjiTeVg/tAE2nylc\""
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 4643,\n        \"category\": \"plumbing\",\n        \"name\": \"PEX Clamp Tool\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 1225,\n        \"category\": \"power-tools\",\n        \"name\": \"1/2 in. Brushless Hammer Drill\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 2177,\n        \"category\": \"ladders\",\n        \"name\": \"Cosco Three Step Steel Platform\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 6543,\n        \"category\": \"electric-generators\",\n        \"name\": \"GENMAX 3200 Watt Inverter Generator\",\n        \"inStock\": false\n    },\n    {\n        \"id\": 3674,\n        \"category\": \"power-tools\",\n        \"name\": \"20V Max Cordless Drill Combo Kit\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 2585,\n        \"category\": \"power-tools\",\n        \"name\": \"20V Max Drill & Home Tool Kit\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 5851,\n        \"category\": \"power-tools\",\n        \"name\": \"20V MAX Cordless Drill Combo Kit\",\n        \"inStock\": false\n    },\n    {\n        \"id\": 8739,\n        \"category\": \"power-tools\",\n        \"name\": \"18V LXT Lithium-Ion Cordless 8-Pc. Combo Kit\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 1709,\n        \"category\": \"ladders\",\n        \"name\": \"Velocity Aluminum Multi-Position Ladder, 13 Ft, 300 lbs\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 1709,\n        \"category\": \"ladders\",\n        \"name\": \"Werner 356 Stepladder, 6-Foot, 100 lbs\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 7395,\n        \"category\": \"ladders\",\n        \"name\": \"Louisville Fiberglass Stepladder, 4 Ft, 300 lbs\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 8554,\n        \"category\": \"trailers\",\n        \"name\": \"Tilt Trailer 7,000 lbs.\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 8753,\n        \"category\": \"plumbing\",\n        \"name\": \"Pipe Threader\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 9482,\n        \"category\": \"plumbing\",\n        \"name\": \"Submersible Water Removal Pump\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 5477,\n        \"category\": \"plumbing\",\n        \"name\": \"Manual Drain Auger 25ft\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 6483,\n        \"category\": \"trailers\",\n        \"name\": \"Single Axle Dump Trailer 2,990 lbs\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 5774,\n        \"category\": \"trailers\",\n        \"name\": \"Single Axle Utility Trailer 4,995 lbs.\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 4875,\n        \"category\": \"electric-generators\",\n        \"name\": \"2800 Watt Inverter Generator\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 5499,\n        \"category\": \"electric-generators\",\n        \"name\": \"3000 Watt Inverter Generator\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 3486,\n        \"category\": \"electric-generators\",\n        \"name\": \"7000 Watt Inverter Generator\",\n        \"inStock\": true\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get a single tool",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://simple-tool-rental-api.glitch.me/tools/:toolId",
+					"protocol": "https",
+					"host": [
+						"simple-tool-rental-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"tools",
+						":toolId"
+					],
+					"variable": [
+						{
+							"key": "toolId",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Tools",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://simple-tool-rental-api.glitch.me/tools",
+							"protocol": "https",
+							"host": [
+								"simple-tool-rental-api",
+								"glitch",
+								"me"
+							],
+							"path": [
+								"tools"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 13 Sep 2022 14:39:27 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1870"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"74e-C4T5fkNjqxDCjiTeVg/tAE2nylc\""
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 4643,\n        \"category\": \"plumbing\",\n        \"name\": \"PEX Clamp Tool\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 1225,\n        \"category\": \"power-tools\",\n        \"name\": \"1/2 in. Brushless Hammer Drill\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 2177,\n        \"category\": \"ladders\",\n        \"name\": \"Cosco Three Step Steel Platform\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 6543,\n        \"category\": \"electric-generators\",\n        \"name\": \"GENMAX 3200 Watt Inverter Generator\",\n        \"inStock\": false\n    },\n    {\n        \"id\": 3674,\n        \"category\": \"power-tools\",\n        \"name\": \"20V Max Cordless Drill Combo Kit\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 2585,\n        \"category\": \"power-tools\",\n        \"name\": \"20V Max Drill & Home Tool Kit\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 5851,\n        \"category\": \"power-tools\",\n        \"name\": \"20V MAX Cordless Drill Combo Kit\",\n        \"inStock\": false\n    },\n    {\n        \"id\": 8739,\n        \"category\": \"power-tools\",\n        \"name\": \"18V LXT Lithium-Ion Cordless 8-Pc. Combo Kit\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 1709,\n        \"category\": \"ladders\",\n        \"name\": \"Velocity Aluminum Multi-Position Ladder, 13 Ft, 300 lbs\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 1709,\n        \"category\": \"ladders\",\n        \"name\": \"Werner 356 Stepladder, 6-Foot, 100 lbs\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 7395,\n        \"category\": \"ladders\",\n        \"name\": \"Louisville Fiberglass Stepladder, 4 Ft, 300 lbs\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 8554,\n        \"category\": \"trailers\",\n        \"name\": \"Tilt Trailer 7,000 lbs.\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 8753,\n        \"category\": \"plumbing\",\n        \"name\": \"Pipe Threader\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 9482,\n        \"category\": \"plumbing\",\n        \"name\": \"Submersible Water Removal Pump\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 5477,\n        \"category\": \"plumbing\",\n        \"name\": \"Manual Drain Auger 25ft\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 6483,\n        \"category\": \"trailers\",\n        \"name\": \"Single Axle Dump Trailer 2,990 lbs\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 5774,\n        \"category\": \"trailers\",\n        \"name\": \"Single Axle Utility Trailer 4,995 lbs.\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 4875,\n        \"category\": \"electric-generators\",\n        \"name\": \"2800 Watt Inverter Generator\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 5499,\n        \"category\": \"electric-generators\",\n        \"name\": \"3000 Watt Inverter Generator\",\n        \"inStock\": true\n    },\n    {\n        \"id\": 3486,\n        \"category\": \"electric-generators\",\n        \"name\": \"7000 Watt Inverter Generator\",\n        \"inStock\": true\n    }\n]"
+				},
+				{
+					"name": "Get a single tool",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://simple-tool-rental-api.glitch.me/tools/:toolId",
+							"protocol": "https",
+							"host": [
+								"simple-tool-rental-api",
+								"glitch",
+								"me"
+							],
+							"path": [
+								"tools",
+								":toolId"
+							],
+							"variable": [
+								{
+									"key": "toolId",
+									"value": "4643"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 13 Sep 2022 14:45:31 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "127"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"7f-j/mC63r7jiZjLg39eNLX1QjFeUA\""
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 4643,\n    \"category\": \"plumbing\",\n    \"name\": \"PEX Clamp Tool\",\n    \"manufacturer\": \"JWGJW\",\n    \"price\": 3.45,\n    \"current-stock\": 14,\n    \"inStock\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "Get a single order",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-tool-rental-api.glitch.me/orders/:orderId",
+					"protocol": "https",
+					"host": [
+						"simple-tool-rental-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"orders",
+						":orderId"
+					],
+					"variable": [
+						{
+							"key": "orderId",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all orders",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-tool-rental-api.glitch.me/orders",
+					"protocol": "https",
+					"host": [
+						"simple-tool-rental-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
