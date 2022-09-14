@@ -8,7 +8,7 @@
     - List users from reqres
     - Reqres.in.json
 
-# Simple Grocery Store API
+# Simple Grocery Store API - Udemy
 ## Lab 6.1:
 - Resources: Postman API testing for manual and automated tests - Udemy
 - Tool: Postman
