@@ -1,7 +1,4 @@
-# API_testing
-This is a personal project about API definition and testing methods.
-
-## Reqres.in
+# Reqres.in
 - Resources: Reqres.in
 - Tool: Postman
 - Language: Json
