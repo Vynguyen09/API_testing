@@ -3,10 +3,10 @@
 - Tool: Postman
 - Language: Json
 - Releases: 
-    Auto check body
-    Auto create users
-    List users from reqres
-    Reqres.in.json
+    - Auto check body
+    - Auto create users
+    - List users from reqres
+    - Reqres.in.json
 
 # Simple Grocery Store API
 ## Lab 6.1:
