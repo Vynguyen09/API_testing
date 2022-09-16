@@ -24,3 +24,11 @@
 - Releases:
     - Lab 6.2 Khởi tạo API request POST 
     - Lab 6.2.json
+
+## Lab 7:
+- Resources: Postman API testing for manual and automated tests - Udemy
+- Tool: Postman
+- Language: Json
+- Releases:
+    - Lab 7 Thực hành viết Script test
+    - Lab 7.json
