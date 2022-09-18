@@ -32,3 +32,11 @@
 - Releases:
     - Lab 7 Thực hành viết Script test
     - Lab 7.json
+
+## Lab 8:
+- Resources: Postman API testing for manual and automated tests - Udemy
+- Tool: Postman
+- Language: Json
+- Releases:
+    - Lab 8 Thực hành viết Script test với Trello: tạo bảng, tạo to-do list và tạo card bằng API
+    - Lab 8.json
